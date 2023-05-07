@@ -8,7 +8,9 @@ import {useNavigate} from 'react-router';
 const VariantForm = ({ variant, variants, setVariants, index }) => {
   const [singleVariant, setSingleVariant] = useState(variant);
   
- 
+ const handleChange=()=>{
+  
+ }
 
   useEffect(() => {
    
